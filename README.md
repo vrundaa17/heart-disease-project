@@ -4,16 +4,6 @@ A complete Machine Learning project to **predict the presence of heart disease**
 
 ---
 
-## **Video Demonstration**
-
-📹 Demo of the app and workflow:
-
-![Watch Demo Video ](screenshots/demo.mp4)
-
-*(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
-
----
-
 ## **Project Motivation**
 
 Heart disease is one of the leading causes of death globally. Early prediction helps identify high-risk patients and can potentially save lives. This project demonstrates the full workflow from **raw data to a predictive web app**, making it an end-to-end example of a real-world ML project.
@@ -111,6 +101,15 @@ heart-disease-project/
 
 ---
 
+## **Video Demonstration**
+
+📹 Demo of the app and workflow:
+
+![Watch Demo Video ](screenshots/demo.mp4)
+
+*(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
+
+---
 
 ## **Notebooks & Code**
 
