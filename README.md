@@ -8,7 +8,7 @@ A complete Machine Learning project to **predict the presence of heart disease**
 
 📹 Demo of the app and workflow:
 
-![Correlation Heatmap](screenshots/demo.mp4)
+![Watch Demo Video ](screenshots/demo.mp4)
 
 *(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
 
