@@ -1,6 +1,16 @@
 # ❤️ Heart Disease Prediction Project
 
-A complete Machine Learning project to **predict the presence of heart disease** using the [Kaggle Heart Disease Dataset](https://www.kaggle.com/). This project includes **data cleaning, preprocessing, exploratory data analysis, feature selection, modeling, evaluation, and deployment** through a Flask web application.  
+A complete Machine Learning project to **predict the presence of heart disease** using the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). This project includes **data cleaning, preprocessing, exploratory data analysis, feature selection, modeling, evaluation, and deployment** through a Flask web application.  
+
+---
+
+## **Video Demonstration**
+
+📹 Demo of the app and workflow:
+
+[![Watch Demo Video](screenshots/demo.mp4)
+
+*(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
 
 ---
 
@@ -16,7 +26,7 @@ Heart disease is one of the leading causes of death globally. Early prediction h
    - Analyzed missing values and inconsistencies.  
    - Explored feature distributions and relationships.  
    - Encoded categorical features and scaled numeric features.  
-   - Notebooks: [Heart Cleaning & EDA](notebooks/heart-cleaning.ipynb)
+   - Notebooks: [Heart Cleaning & EDA](notebooks/heart-eda-cleaning.ipynb)
 
 2. **Feature Engineering**
    - Used **Random Forest** to determine the most important features.  
@@ -43,7 +53,7 @@ Heart disease is one of the leading causes of death globally. Early prediction h
 ---
 
 ## **Repository Structure**
-
+```
 heart-disease-project/
 │
 ├─-- dataset/                                         # Original and processed datasets
@@ -59,7 +69,7 @@ heart-disease-project/
 ├─ README.md                                          # Project documentation
 └─ .gitignore                                         # Files/folders to ignore in Git 
 
-
+```
 
 
 
@@ -101,15 +111,6 @@ heart-disease-project/
 
 ---
 
-## **Video Demonstration**
-
-📹 Demo of the app and workflow:
-
-[![Watch Demo Video](videos/demo.mp4)
-
-*(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
-
----
 
 ## **Notebooks & Code**
 
