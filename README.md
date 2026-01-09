@@ -8,7 +8,7 @@ A complete Machine Learning project to **predict the presence of heart disease**
 
 📹 Demo of the app and workflow:
 
-[![Watch Demo Video](screenshots/demo.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
 
 *(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
 
