@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction Project
+# <img src="static/heart-disease.png" alt="Heart Disease" height="50" />  Heart Disease Prediction Project
 
 A complete Machine Learning project to **predict the presence of heart disease** using the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). This project includes **data cleaning, preprocessing, exploratory data analysis, feature selection, modeling, evaluation, and deployment** through a Flask web application.  
 
@@ -67,21 +67,40 @@ heart-disease-project/
 
 ## **Visualizations**
 
-### **1. Correlation Heatmap**
-![Correlation Heatmap](ds_plots/correlation.png)
 
-### **2. Feature Importance**
-![Feature Importance](ds_plots/feature_importance.png)
+### **1. Heart Risk Increase With ST Slope Change**
+![ST Slope - Heart Disease](ds_plots/heart_risk_inc_st_slope.png) 
+![](ds_plots/st_slope_stronger_with_other_feature.png) 
+**ST slope is a strong predictor of heart disease**. Patients with **flat slopes have the highest risk**, followed by **downsloping slopes**. In contrast, **upsloping slopes are the safest, with only small percent of patients affected**.
 
-### **3. Heart Risk Increase With ST Slope Change**
-![ST Slope - Heart Disease](ds_plots/heart_risk_inc_st_slope.png)
+The graphs also indicates that **exercise-induced ST segment behavior is a critical indicator of cardiac risk**, especially when combined with **other features like Oldpeak and MaxHR**.
 
-### **4. Distribution of Age vs Heart Disease**
-![Age vs Heart Disease](ds_plots/age.png)
+### **2. Distribution of Age vs Heart Disease**
+![Age vs Heart Disease](ds_plots/age.png) 
+- The boxplot shows that **most heart disease cases are concentrated in the 45–60 age group**, even though the overall age range in the dataset spans approximately 25 to 75 years.
 
-### **5. Cholesterol vs Max Heart Rate**
+- This indicates that **middle-aged individuals are at a higher risk** of developing heart disease compared to younger age groups.
+
+- For younger individuals, the KDE plot shows that the **curve for no heart disease (0) is higher than the curve for heart disease (1)**, suggesting that younger people are **less likely to have heart disease**.
+
+- Overall, **age appears to be a significant factor in heart disease occurrence**, with risk increasing notably after the age of 45.
+
+
+### **3. Cholesterol vs Max Heart Rate**
 ![Cholesterol](ds_plots/cholesterol.png)
 ![MaxHR](ds_plots/max_heart_rate.png)
+- **Medical Knowledge :** Patients with heart disease often cannot reach high maximum heart rates during exercise due to blocked arteries or heart muscle issues.
+
+  Patients who achieve a **higher maximum heart rate (135–165 bpm) during exercise are more likely to be healthy**,while those with a **lower maximum heart rate (115–145 bpm) have higher chances of heart disease**. This confirms that exercise tolerance (MaxHR) is a **strong predictor of heart health**.
+
+
+### **4. Feature Importance**
+![Feature Importance](ds_plots/feature_imp.png)
+
+
+  ### **5. Correlation Heatmap**
+![Correlation Heatmap](ds_plots/correlation.png)
+
 
 
 ---
@@ -107,7 +126,7 @@ heart-disease-project/
 
 ![Watch Demo Video ](screenshots/demo.mp4)
 
-*(Click the thumbnail to play video or open `videos/demo.mp4` locally.)*
+*(Click the thumbnail to play video or open `screenshots/demo.mp4` locally.)*
 
 ---
 
