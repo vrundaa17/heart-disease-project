@@ -1,4 +1,4 @@
-# <img src="static/heart-disease.png" alt="Heart Disease" height="50" />  Heart Disease Prediction Project
+# <img src="static/heart-disease (1).png" alt="Heart Disease" height="30" />   Heart Disease Prediction Project
 
 A complete Machine Learning project to **predict the presence of heart disease** using the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). This project includes **data cleaning, preprocessing, exploratory data analysis, feature selection, modeling, evaluation, and deployment** through a Flask web application.  
 
