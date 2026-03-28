@@ -1,2 +1,13 @@
 heart_disease/
 .heart_disease/
+
+dataset/
+.ipynb_checkpoints/
+
+*.pkl
+__pycache__/
+*.pyc
+
+*.pkl
+*.csv
+.DS_Store
